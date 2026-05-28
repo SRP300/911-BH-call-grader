@@ -132,26 +132,6 @@ Each generated report includes:
 3. **Weighted scoring** — The overall score is computed deterministically from dimension scores using fixed weights, not taken from the LLM.
 4. **Template-based reports** — Using `python-docx` with a real Word template preserves formatting and styling.
 
-## GitHub Upload Guide (Beginner-Friendly)
-
-Commit these:
-- `prototype/` source files
-- `templates/call-grading-template.docx`
-- `call-grading-report.docx`
-- `dashboard-demo.html`
-- `dashboard-demo.jsx` (archived reference)
-- `README.md`, `.gitignore`, `.env.example`, `requirements.txt`
-
-Do NOT commit these:
-- `.env` (contains secrets)
-- `.venv/` (local environment)
-- `outputs/` generated reports
-- `.tmp/` temporary files
-
-Before your first public push:
-1. Rotate/revoke any existing API key in your local `.env`.
-2. Confirm `git status` does not show `.env`, `.venv`, or generated report files.
-3. Commit only the source/demo files listed above.
 
 ## License
 
