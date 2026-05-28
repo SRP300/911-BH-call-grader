@@ -1,0 +1,49 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temp & generated output
+.tmp/*
+!.tmp/.gitkeep
+outputs/**
+!outputs/.gitkeep
+!outputs/examples/
+!outputs/examples/**
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Editor files
+.idea/
+.vscode/
+.cursor/
+*.swp
+*~
+
+# JS tooling (if added later)
+node_modules/
