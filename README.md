@@ -2,6 +2,8 @@
 
 An AI-powered quality assurance system that automatically grades behavioral-health emergency call transcripts. The system uses a 2-step LLM workflow to extract evidence from transcripts and score call-taker performance against a 9-dimension rubric, then generates professional Word document (`.docx`) grading reports.
 
+Note: This is a personal project built with public resources and synthetic data to explore a behavioral health crisis response use case, and it is not derived from any specific organization’s internal materials.
+
 ## How It Works
 
 ```
